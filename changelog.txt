@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2025-07-28
+  Info:
+    - Inofficial release
+  Changes:
+    - Inventory is now read from character PR#8 by pla
+  Bugfixes:
+    - Fix crash to menu bug PR#9 by jim-hart
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-11-04
   Changes:
