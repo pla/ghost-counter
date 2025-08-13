@@ -96,7 +96,7 @@ end
 function on_player_main_inventory_changed(event)
     local playerdata = get_make_playerdata(event.player_index)
     if not playerdata.is_active and not next(playerdata.logistic_requests) then return end
-    if playerdata.luaplayer.controller_type ~= defines.controllers.character then return end
+    -- if playerdata.luaplayer.controller_type ~= defines.controllers.character then return end
 
     register_update(playerdata.index, event.tick)
 end
